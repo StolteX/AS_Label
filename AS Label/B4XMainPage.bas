@@ -26,6 +26,8 @@ Private Sub B4XPage_Created (Root1 As B4XView)
 	Root = Root1
 	Root.LoadLayout("frm_main")
 	
+	ASLabel1.IconPosition = ASLabel1.IconPosition_LeftText
+	ASLabel1.Icon = ASLabel1.FontToBitmap(Chr(0xE859),True,20,xui.Color_White)
 	
 End Sub
 
